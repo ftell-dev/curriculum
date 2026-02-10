@@ -1,0 +1,48 @@
+*{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.dadosPerfil {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(rgb(214, 214, 214), #666666, #0f0f0f);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.dadosPerfil {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.dadosPerfil h1 {
+    margin: 0 0 8px 0;
+}
+
+.dadosPerfil p {
+    margin: 0;
+}
+
+.corpoDoTexto {
+    color: white;
+}
